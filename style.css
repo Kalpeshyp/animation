@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5 {
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.circle1 {
+    background-color: dodgerblue;
+    animation: circle 15s ease-in-out 2s infinite reverse;
+}
+
+.circle2 {
+    background-color: red;
+    animation: circle 15s ease-in-out 2.1s infinite reverse;
+}
+
+.circle3 {
+    background-color: pink;
+    animation: circle 15s ease-in-out 2.2s infinite reverse;
+}
+
+.circle4 {
+    background-color: brown;
+    animation: circle 15s ease-in-out 2.4s infinite reverse;
+}
+
+.circle5 {
+    background-color: #3acd11;
+    animation: circle 15s ease-in-out 2.5s infinite reverse;
+}
+
+@keyframes circle {
+    0% {
+        top: 0;
+        left: 0rem;
+    }
+    25% {
+        left: 40rem;
+        top: 0;
+    }
+    50% {
+        left: 40rem;
+        top: 50rem;
+    }
+    75% {
+        left: 0;
+        top: 40rem;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
