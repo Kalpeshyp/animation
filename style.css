@@ -21,22 +21,22 @@
 
 .circle2 {
     background-color: red;
-    animation: circle 15s ease-in-out 2.1s infinite reverse;
+    animation: circle 15s ease-in-out 2.2s infinite reverse;
 }
 
 .circle3 {
-    background-color: pink;
-    animation: circle 15s ease-in-out 2.2s infinite reverse;
+    background-color: voilet;
+    animation: circle 15s ease-in-out 2.4s infinite reverse;
 }
 
 .circle4 {
     background-color: brown;
-    animation: circle 15s ease-in-out 2.4s infinite reverse;
+    animation: circle 15s ease-in-out 2.6s infinite reverse;
 }
 
 .circle5 {
     background-color: #3acd11;
-    animation: circle 15s ease-in-out 2.5s infinite reverse;
+    animation: circle 15s ease-in-out 2.8s infinite reverse;
 }
 
 @keyframes circle {
